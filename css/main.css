@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: #eeeeee;
+    display: inline-block;
+    position: fixed;
+    /* text-decoration: none; */
+}
+
+ul li {
+    padding-top: 30px;
+    margin-left: 100px;
+    /* text-decoration: none !important; */
+    list-style-type: none;
+}
+
+/* Home */
+.home {
+    background: url("../images/home-img.jpg") no-repeat;
+    background-size: 100% 620px;
+    height: 1000px;
+    width: 100%;
+}
+
+.home-card {
+    position: absolute;
+    bottom: 90px;
+    left: 800px;
+    background-color: #fcfcfc;
+    height: 200px;
+    width: 30%;
+    padding: 20px;
+}
+
+.home-card h1 {
+    margin: 10px 0 10px 0;
+}
+
+.table1 {
+    margin-top: 20px;
+}
+
+.table1 tr td {
+    padding-top: 10px;
+}
+
+/* End Home */
+/* About */
+.about {
+    position: absolute;
+    height: 700px;
+    top: 700px;
+    left: 300px;
+    width: 70%;
+}
+
+.about .col1 {
+    width: 56%;
+    text-align: justify;
+}
+
+.about .col1 p {
+    margin-top: 20px;
+}
+
+.about .col1 h1 {
+    margin-top: 20px;
+}
+
+.table2 {
+    margin-top: 20px;
+}
+
+.table2 .td-b {
+    font-weight: bold;
+}
+
+.table2 tbody tr td {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* Button */
+.btn1 {
+    margin-top: 40px;
+    height: 50px;
+    width: 110px;
+    background-color: tomato;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: tomato;
+    border: 2px tomato solid;
+}
+
+/* End Button */
+/* Col2 */
+.col2 {
+    width: auto;
+    display: inline-block;
+    height: 100px;
+    background-color: white;
+    border: 0;
+    border: 6px tomato solid;
+    position: absolute;
+    height: 450px;
+    top: 10px;
+    left: 500px;
+    width: 50%;
+}
+
+.col2-img img {
+    height: 470px;
+    width: 450px;
+    transition: 1s;
+}
+
+.col2-img img:hover {
+    padding: 10px;
+}
+
+/* End Col2 */
+/* End About */
+
+/* Exp */
+.exp {
+    background: url("../images/home-img.jpg") no-repeat fixed !important;
+    position: absolute;
+    top: 1250px;
+    left: 255px;
+    height: 500px;
+    width: 79.6%;
+}
+
+.exp::before {
+    background-color: #c8936e7c;
+    content: '';
+    display: block;
+    height: 500px;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.table-col1 {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.table-col1 button {
+    background-color: #c07f50;
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.table-col1 thead tr th {
+    /* position: absolute; */
+    display: block;
+    float: left;
+    /* border-bottom: 1px solid red;
+    padding: 0 0 4px; */
+    position: relative;
+    padding-left: 20px;
+    /* text-decoration: underline; */
+    /* border-bottom: 2px white solid; */
+}
+
+.table-col1 thead tr th::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    display: block;
+    height: 1px;
+    background-color: red;
+    bottom: -5px;
+}
+
+.table-col1 tbody tr td {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.table-col2 {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 500px;
+}
+
+/* End Exp */
+/* Services */
+.services {
+    position: absolute;
+    left: 255px;
+    bottom: -2000px;
+    width: 76.6%;
+    background-color: #f8f2ed;
+    height: 900px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.card {
+    width: 27%;
+    height: 290px;
+    background-color: #fff;
+    color: black;
+    margin: 20px 0 0 10px;
+    padding: 20px;
+    transition: 1s;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.card i {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.card span {
+    float: right;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.card h3, p {
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    color: white;
+    background-color: #c07f50;
+    position: relative;
+    top:-10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.card:hover i{
+    color: white;
+}
+.card:hover h3{
+    border-bottom: 2px #fff solid;
+    width: 80%;
+
+}
+
+/* End Services */
